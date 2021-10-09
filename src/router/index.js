@@ -26,8 +26,8 @@ export default new Router({
       component: Covid
     },
     {
-      path: '/enter',
-      name: 'enter',
+      path: '/date',
+      name: 'date',
       component: Form
     }
   ]
