@@ -47,7 +47,7 @@ export default {
   },
   methods: {
     calculateETA(currentDate) {
-      const destinationDate = new Date("2021-02-12").setHours(0, 0, 0, 0);
+      const destinationDate = new Date("2022-02-01").setHours(0, 0, 0, 0);
       let diff = destinationDate - currentDate;
       let milliseconds = diff % 1000;
       diff = (diff - milliseconds) / 1000;
